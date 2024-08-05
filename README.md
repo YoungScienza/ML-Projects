@@ -1,11 +1,3 @@
-# Machine Learning Projects :rocket:
-This is a collection of ML, Data Science and AI projects I have done for academic and self-learning purposes.
-In case you need more info about them:
-  - Email: giovanniesp456@gmail.com
-  - LinkedIn: https://www.linkedin.com/in/giovanni-esposito-854858202/
-
-# Projects:
-## Automated Machine Learning: Meta-Learning for XGBoost hyperparameters
-This project focuses on developing a meta-learning approach to optimize hyperparameters for the XGBoost algorithm. 
-By leveraging a large dataset of XGBoost configurations evaluated across numerous classification tasks, the goal is to predict the best configurations for new classification problems. 
-The project includes experimenting with various performance predictors, evaluating useful meta-features, and identifying the most influential hyperparameters to enhance the default configuration.
+# Bachelor_Thesis
+CLV forecasting through the use of RFM variables.
+This is the code I used for my Bachelor thesis. There are many Python scripts I have used to filter and clean the data as well as to create new variables and build some prediction modles. The comments are in italian. There are also the parquet files I used to dived my work into smaller parts and make it more accessible but i can't upload them since they are too big but they are easly obtainable running the script with the original data from the Kaggle challange https://www.kaggle.com/c/acquire-valued-shoppers-challenge.
