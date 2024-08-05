@@ -40,11 +40,11 @@ https://syncandshare.lrz.de/getlink/fiV9MfvupyNzWpT99M5RhFh2/
   - features.csv contains simple pre-computed meta features for the evaluated datasets.
   
 To this end, you could consider the following:
-  •  Try out different performance predictors (EPMs).
-  • Evaluate which meta-features are useful.
-  • Evaluate which hyperparameters have the most influence on the performance.
-  • Try to find the simplest meta-learning approach that beats the default configuration.
-  • Check if you can find an improved static default configuration.
+  - Try out different performance predictors (EPMs).
+  - Evaluate which meta-features are useful.
+  - Evaluate which hyperparameters have the most influence on the performance.
+  - Try to find the simplest meta-learning approach that beats the default configuration.
+  - Check if you can find an improved static default configuration.
   
 **Important:** Do not overfit on the 20 test tasks. E.g., to evaluate the performance of different EPMs use the precomputed data.
 
