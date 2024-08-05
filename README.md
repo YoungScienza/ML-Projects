@@ -1,4 +1,4 @@
-# Machine Learning Projects 
+# Machine Learning Projects :rocket:
 This is a collection of ML, Data Science and AI projects I have done for academic and self-learning purposes.
 In case you need more info about them:
   - Email: giovanniesp456@gmail.com
