@@ -26,19 +26,17 @@ Your meta-learner has to outperform the following default configuration:
 For on overview of what these hyperparameters do see:
 https://xgboost.readthedocs.io/en/stable/parameter.html.
 
-NOTE: the names of these hyperparameters might not match the names of the hyperparameters
-of the XGBoost API you are using, e.g., num rounds refers to n estimators in the python (scikitlearn)
-XGBoost API whereas it refers to nrounds in the R (mlr3) XGBoost API. Be careful and
-check the documentation!
+**NOTE:** the names of these hyperparameters might not match the names of the hyperparameters of the XGBoost API you are using, e.g., num rounds refers to n estimators in the python (scikitlearn) XGBoost API whereas it refers to nrounds in the R (mlr3) XGBoost API. Be careful and check the documentation!
+
 These 20 OpenML tasks should be used for evaluation of your solution:
-16, 22, 31, 2074, 2079, 3493, 3907, 3913, 9950, 9952, 9971, 10106, 14954, 14970, 146212, 146825,
-167119, 167125, 168332, 168336
-NOTE: These tasks naturally come with a 10-fold CV resampling. To speed things up, you can
-and should train only on the train set of the first fold and evaluate on the test set of the first fold!
+16, 22, 31, 2074, 2079, 3493, 3907, 3913, 9950, 9952, 9971, 10106, 14954, 14970, 146212, 146825,167119, 167125, 168332, 168336
+
+**NOTE:** These tasks naturally come with a 10-fold CV resampling. To speed things up, you can and should train only on the train set of the first fold and evaluate on the test set of the first fold!
+
 The meta data can be found here:
 https://syncandshare.lrz.de/getlink/fiV9MfvupyNzWpT99M5RhFh2/
-• xgboost meta data.csv contains 3.386.866 evaluations of configurations across 99 tasks.
-• features.csv contains simple pre-computed meta features for the evaluated datasets.
+  • xgboost meta data.csv contains 3.386.866 evaluations of configurations across 99 tasks.
+  • features.csv contains simple pre-computed meta features for the evaluated datasets.
 To this end, you could consider the following:
 
 
