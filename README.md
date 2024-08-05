@@ -10,43 +10,27 @@ Your task is to develop a meta-learning approach using that data to learn which 
 use on a set of 20 new classification problems.
 Your meta-learner has to outperform the following default configuration:
 
-| Hyperparameter | Value       |
-|----------------|-------------|
-|num rounds      | 464         |
-|eta             | 0.0082 |
-|subsample |0.982|
-|max depth |11|
-|min child weight |3.30|
-|colsample bytree | 0.975|
-|colsample bylevel | 0.900|
-|lambda |0.06068|
-|alpha |0.00235|
-|gamma |0|
+| Hyperparameter     | Value  |
+|--------------------|--------|
+| num rounds         | 464    |
+| eta                | 0.0082 |
+| subsample          | 0.982  |
+| max depth          | 11     |
+| min child weight   | 3.30   |
+| colsample bytree   | 0.975  |
+| colsample bylevel  | 0.900  |
+| lambda             | 0.06068|
+| alpha              | 0.00235|
+| gamma              | 0      |
+
 For on overview of what these hyperparameters do see:
 https://xgboost.readthedocs.io/en/stable/parameter.html.
 
 
-\begin{document}
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|}
-\hline
-\textbf{Hyperparameter} & \textbf{Value} \\ \hline
-num rounds & 464 \\ \hline
-eta & 0.0082 \\ \hline
-subsample & 0.982 \\ \hline
-max depth & 11 \\ \hline
-min child weight & 3.30 \\ \hline
-colsample bytree & 0.975 \\ \hline
-colsample bylevel & 0.900 \\ \hline
-lambda & 0.06068 \\ \hline
-alpha & 0.00235 \\ \hline
-gamma & 0 \\ \hline
-\end{tabular}
-\end{table}
 
-\end{document}
+
+
 
 
 
