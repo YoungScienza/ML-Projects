@@ -36,8 +36,8 @@ These 20 OpenML tasks should be used for evaluation of your solution:
 The meta data can be found here:
 https://syncandshare.lrz.de/getlink/fiV9MfvupyNzWpT99M5RhFh2/
 
-  • xgboost meta data.csv contains 3.386.866 evaluations of configurations across 99 tasks.
-  • features.csv contains simple pre-computed meta features for the evaluated datasets.
+  - xgboost meta data.csv contains 3.386.866 evaluations of configurations across 99 tasks.
+  - features.csv contains simple pre-computed meta features for the evaluated datasets.
   
 To this end, you could consider the following:
   •  Try out different performance predictors (EPMs).
