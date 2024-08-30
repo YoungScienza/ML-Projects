@@ -8,4 +8,4 @@ This is achieved by combining LLM's text processing capabilities with Retrieval 
 3. Open the shell and change the directory to the path where you cloned the code
 4. Run *streamlit run QA_chain.py*
 
-![Alt text](C:\Users\h\Pictures\Stampare\Immagine 2022-03-03 171053.png "Title")
+![image](https://github.com/user-attachments/assets/196b5480-ff83-4fb3-bbe8-87469365e973)
