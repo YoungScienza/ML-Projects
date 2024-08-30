@@ -1,2 +1,3 @@
-This is my Master Thesis work developed in collaboration with Munich Re. The projects aims at building a chatbot application capable of quering information from homeowners insurance policies. 
-This is achieved by combining LLMs text processing capabilities with Retrieval Augmented Generation (RAG) in order to select relevant chunks of information from the documents. 
+## Retrieval Augmented Generation (RAG) for Question Answering on insurance policies 
+This is my master's thesis, developed in collaboration with Munich Re. The aim of the project is to develop a chatbot application capable of retrieving information from home insurance policies. 
+This is achieved by combining LLM's text processing capabilities with Retrieval Augmented Generation (RAG) to select relevant pieces of information from the documents. This is the best performing version in which I use GPT 3.5-turbo-0125. A more complete list of the paramter configuration for RAG will be added as well as versions compatible with other LLMs used such as Claude3-Haiku, Llama2 70B, Llama3 70B, Mixtral 8x7B.
