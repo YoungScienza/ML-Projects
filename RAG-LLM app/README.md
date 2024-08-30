@@ -7,3 +7,5 @@ This is achieved by combining LLM's text processing capabilities with Retrieval 
 2. Install the packages listed in *requirements.txt*
 3. Open the shell and change the directory to the path where you cloned the code
 4. Run *streamlit run QA_chain.py*
+
+![Alt text](C:\Users\h\Pictures\Stampare\Immagine 2022-03-03 171053.png "Title")
