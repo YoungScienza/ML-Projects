@@ -4,6 +4,6 @@ This is achieved by combining LLM's text processing capabilities with Retrieval 
 
 ### How to run the code:
 1. Clone the repository in your local machine
-2. Install the packages listed in requirements.txt
+2. Install the packages listed in *requirements.txt*
 3. Open the shell and change the directory to the path where you cloned the code
-4. Run streamlit run QA_chain.py
+4. Run *streamlit run QA_chain.py*
